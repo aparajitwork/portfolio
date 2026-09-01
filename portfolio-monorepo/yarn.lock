@@ -817,6 +817,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@repo/next-core@workspace:apps/next-core":
+  version: 0.0.0-use.local
+  resolution: "@repo/next-core@workspace:apps/next-core"
+  dependencies:
+    "@repo/design-tokens": "npm:*"
+    "@tailwindcss/postcss": "npm:^4"
+    "@types/node": "npm:^20"
+    "@types/react": "npm:^19"
+    "@types/react-dom": "npm:^19"
+    eslint: "npm:^9"
+    eslint-config-next: "npm:16.3.4"
+    next: "npm:16.3.4"
+    react: "npm:19.2.8"
+    react-dom: "npm:19.2.8"
+    tailwindcss: "npm:^4"
+    typescript: "npm:^5"
+  languageName: unknown
+  linkType: soft
+
 "@repo/shell@workspace:apps/shell":
   version: 0.0.0-use.local
   resolution: "@repo/shell@workspace:apps/shell"
