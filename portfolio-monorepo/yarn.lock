@@ -923,6 +923,7 @@ __metadata:
   dependencies:
     "@eslint/js": "npm:^10.0.1"
     "@repo/design-tokens": "npm:*"
+    "@tailwindcss/vite": "npm:^4.3.3"
     "@types/node": "npm:^24.13.3"
     "@types/react": "npm:^19.2.18"
     "@types/react-dom": "npm:^19.2.4"
@@ -933,6 +934,7 @@ __metadata:
     globals: "npm:^17.11.0"
     react: "npm:^19.2.8"
     react-dom: "npm:^19.2.8"
+    tailwindcss: "npm:^4.3.3"
     typescript: "npm:~6.0.2"
     typescript-eslint: "npm:^8.67.0"
     vite: "npm:^8.2.2"
@@ -1269,6 +1271,19 @@ __metadata:
     postcss: "npm:^8.5.16"
     tailwindcss: "npm:4.3.3"
   checksum: 10c0/50b33643a4ba50c0d2ea0fd769d16072b0b3d2f31180df667fe5ad4ef60464b5f00931cfd5f2de2116a91219edb7a2dbd4c073b5c2f23393eab6ef1163db8dbf
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/vite@npm:^4.3.3":
+  version: 4.3.3
+  resolution: "@tailwindcss/vite@npm:4.3.3"
+  dependencies:
+    "@tailwindcss/node": "npm:4.3.3"
+    "@tailwindcss/oxide": "npm:4.3.3"
+    tailwindcss: "npm:4.3.3"
+  peerDependencies:
+    vite: ^5.2.0 || ^6 || ^7 || ^8
+  checksum: 10c0/bb1fe12f7a0bb8f6d6142f6bb2e96060ee853902314ef838e8d7f50cf30cc4b07adb7c2c86be2164e0d62eb581b8cc4df2d9aa13b4449f597a67f73c5772d549
   languageName: node
   linkType: hard
 
@@ -5253,7 +5268,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:4.3.3, tailwindcss@npm:^4":
+"tailwindcss@npm:4.3.3, tailwindcss@npm:^4, tailwindcss@npm:^4.3.3":
   version: 4.3.3
   resolution: "tailwindcss@npm:4.3.3"
   checksum: 10c0/7e9cd7553cd890ffa5350efb0ca8971ba5435257d0f98bf0714994ac8f1fee5c7cdf9a9da47fe83e8ac995d728410837ac49d3ef5ea66b5afe1db312086ffae2
